@@ -5,30 +5,7 @@
 #include "Automated.h"
 #include "Console.h"
 
-#if(TEST_INT_DTCM == TEST_ON)
-# include "TestIntDtcMaster.h"
-#endif
-#if(TEST_INT_DTCBRIDGE == TEST_ON)
-# include "TestIntDtcBridge.h"
-#endif
-#if(TEST_INT_TIMERS == TEST_ON)
-# include "TestIntTimers.h"
-#endif
-#if(TEST_INT_J1939W == TEST_ON)
-# include "TestIntj1939w.h"
-#endif
-#if(TEST_UNIT_DTCM == TEST_ON)
-# include "TestDtcMaster.h"
-#endif
-#if(TEST_UNIT_TIMERS == TEST_ON)
-# include "TestTimers.h"
-#endif
-#if(TEST_UNIT_DTCBRIDGE == TEST_ON)
-# include "TestDtcBridge.h"
-#endif
-#if(TEST_UNIT_J1939W == TEST_ON)
-# include "Testj1939w.h"
-#endif
+
 
 /* The main() function for setting up and running the tests.
  * Returns a CUE_SUCCESS on successful running, another
